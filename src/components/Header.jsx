@@ -15,7 +15,7 @@ const Header = () => {
      <DarkModeSwitch/>
       <Link href={'/'} className='flex gap-1 items-center'>
         <span className='text-2xl font-bold bg-blue-600 py-1 px-2 rounded-lg'>
-          Pili
+          Solida
         </span>
         <span className='text-2xl font-bold hidden sm:inline'>co</span>
       </Link>

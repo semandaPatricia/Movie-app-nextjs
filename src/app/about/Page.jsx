@@ -1,23 +1,20 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
-    <div className='max-w-6xl mx-auto p-3 space-y-4'>
-      <h1 className='text-2xl font-medium text-amber-600'>About</h1>
+    <div className="max-w-6xl mx-auto p-3 space-y-4">
+      <h1 className="text-2xl font-medium text-amber-600">About</h1>
+      <h2 className="font-bold text-2xl">Welcome to our movie Website! 🎬</h2>
       <p>
-        Welcome to our movie database website! We are a team of passionate movie
-        enthusiasts who have come together to create a one-stop destination for
-        all your movie-related needs.
+        We are a team of passionate movie enthusiasts who have come together to
+        create a one-stop destination for all your movie-related needs.
       </p>
 
       <p>
-        Our website is designed to provide you with a comprehensive database of
-        movies from all around the world, along with the latest news, reviews,
-        and trailers. Our movie database is constantly updated with new
-        releases, ensuring that you have access to the latest and greatest in
-        the world of cinema. You can search for movies by title, director,
-        actor, genre, or release date, making it easy to find the perfect movie
-        for any occasion.
+        Discover detailed information about each movie, including plot
+        summaries, cast and crew details, ratings, reviews, and much more. Dive
+        into the fascinating world of filmmaking and immerse yourself in the
+        stories that captivate audiences worldwide.
       </p>
 
       <p>
@@ -33,8 +30,15 @@ const About = () => {
         looking for ways to improve and enhance the user experience on our
         website. Happy browsing!
       </p>
-    </div>
-  )
-}
 
-export default About
+      <p>
+        {" "}
+        So grab some popcorn, sit back, and let our site be your ultimate
+        companion for all things movies. Thank you for choosing us to be part of
+        your cinematic journey!
+      </p>
+    </div>
+  );
+};
+
+export default About;

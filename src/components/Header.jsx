@@ -11,10 +11,10 @@ const Header = () => {
    <div className='flex items-center gap-4'>
      
      <Link href={'/'} className='flex gap-1 items-center'>
-       <span className='text-2xl font-bold bg-blue-600 py-1 px-2 rounded-lg'>
-         Solida
+       <span className='text-2xl font-bold bg-red-800 py-1 px-2 rounded-lg'>
+       🎬 Solida
        </span>
-       <span className='text-2xl font-bold hidden sm:inline'>co</span>
+       <span className='text-xl font-bold hidden sm:inline'>co</span>
      </Link>
    </div>
    

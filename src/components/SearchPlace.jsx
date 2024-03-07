@@ -32,7 +32,7 @@ export default function SearchPlace() {
         className='text-blue-400 disabled:text-gray-400'
         disabled={search === ''}
       >
-        Search
+        
       </button>
     </form>
   );
